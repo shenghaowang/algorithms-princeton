@@ -1,5 +1,5 @@
-# algorithms-princeton
-Assignments of the Coursera algorithms course offered by Princeton University
+# Assignments of the Coursera algorithms course offered by Princeton University
+![Princeton logo](img/princeton.avif)
 
 ## Part I
 
