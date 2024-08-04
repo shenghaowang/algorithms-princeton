@@ -4,6 +4,9 @@
 ## Course websites
 * [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1/)
 
+## Installation
+* [Java environment for Mac OS](https://lift.cs.princeton.edu/java/mac/)
+
 ## Part I
 
 ### Module 1 Hello, World
