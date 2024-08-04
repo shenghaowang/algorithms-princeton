@@ -1,6 +1,9 @@
 # Assignments of the Coursera algorithms course offered by Princeton University
 ![Princeton logo](img/princeton.jpg)
 
+## Course websites
+* [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1/)
+
 ## Part I
 
 ### Module 1 Hello, World
