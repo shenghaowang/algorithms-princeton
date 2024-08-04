@@ -1,5 +1,5 @@
 # Assignments of the Coursera algorithms course offered by Princeton University
-![Princeton logo](img/princeton.avif)
+![Princeton logo](img/princeton.jpg)
 
 ## Part I
 
