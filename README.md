@@ -33,3 +33,6 @@ java-algs4 Percolation 10
 javac-algs4 PercolationStats.java
 java-algs4 PercolationStats 200 100
 ```
+
+### Module 3 Stacks and Queues
+* [Linked-list implementation of stack](src/part1/module4_stacks_queues/LinkedStackOfStrings.java)
