@@ -39,3 +39,4 @@ java-algs4 PercolationStats 200 100
 * [Array implementation of stack](src/part1/module4_stacks_queues/FixedCapacityStackOfStrings.java)
 * [Resizing array implementation of stack](src/part1/module4_stacks_queues/ResizingArrayStackOfStrings.java)
 * [Linked list implementation of queue](src/part1/module4_stacks_queues/LinkedQueueOfStrings.java)
+* [Generics implementation of stack](src/part1/module4_stacks_queues/Stack.java)
