@@ -30,10 +30,10 @@ public class Bag<Item> implements Iterable<Item> {
 
     private void print() {
         for (Item i : this) {
-            System.out.print(i + ", ");
+            StdOut.print(i + ", ");
         }
-        System.out.print("size: " + size());
-        System.out.println(" empty or not: " + isEmpty());
+        StdOut.print("size: " + size());
+        StdOut.println(" empty or not: " + isEmpty());
     }
 
     public Iterator<Item> iterator() {
