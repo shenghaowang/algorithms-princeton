@@ -40,3 +40,5 @@ java-algs4 PercolationStats 200 100
 * [Resizing array implementation of stack](src/part1/module4_stacks_queues/ResizingArrayStackOfStrings.java)
 * [Linked list implementation of queue](src/part1/module4_stacks_queues/LinkedQueueOfStrings.java)
 * [Generics implementation of stack](src/part1/module4_stacks_queues/Stack.java)
+* [Iterator implementation of bag](src/part1/module4_stacks_queues/Bag.java)
+* [Iterator implementation of deque](src/part1/module4_stacks_queues/Deque.java)
