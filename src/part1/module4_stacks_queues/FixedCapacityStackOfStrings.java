@@ -23,7 +23,7 @@ public class FixedCapacityStackOfStrings {
 
     private void print() {
         for (int i = 0; i < N; i++) {
-            System.out.print(s[i] + " ");
+            StdOut.print(s[i] + " ");
         }
 
         StdOut.print("N = " + N);
