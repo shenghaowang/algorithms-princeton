@@ -117,13 +117,13 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     // unit testing (required)
     public static void main(String[] args) {
         RandomizedQueue<Integer> que = new RandomizedQueue<>();
-        System.out.println("size: " + que.size());
-        System.out.println("empty: " + que.isEmpty());
+        StdOut.println("size: " + que.size());
+        StdOut.println("empty: " + que.isEmpty());
         que.print();
 
         que.enqueue(1);
-        System.out.println("size: " + que.size());
-        System.out.println("empty: " + que.isEmpty());
+        StdOut.println("size: " + que.size());
+        StdOut.println("empty: " + que.isEmpty());
         que.print();
 
         que.enqueue(2);
@@ -135,21 +135,21 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         que.print();
         que.print();
         que.print();
-        System.out.println(que.dequeue());
-        System.out.println(que.dequeue());
-        System.out.println(que.dequeue());
-        System.out.println(que.dequeue());
-        System.out.println("size: " + que.size());
-        System.out.println("empty: " + que.isEmpty());
+        StdOut.println(que.dequeue());
+        StdOut.println(que.dequeue());
+        StdOut.println(que.dequeue());
+        StdOut.println(que.dequeue());
+        StdOut.println("size: " + que.size());
+        StdOut.println("empty: " + que.isEmpty());
         que.print();
-        System.out.println(que.sample());
-        System.out.println(que.sample());
-        System.out.println(que.sample());
-        System.out.println(que.sample());
-        System.out.println(que.dequeue());
-        System.out.println(que.dequeue());
-        System.out.println("size: " + que.size());
-        System.out.println("empty: " + que.isEmpty());
+        StdOut.println(que.sample());
+        StdOut.println(que.sample());
+        StdOut.println(que.sample());
+        StdOut.println(que.sample());
+        StdOut.println(que.dequeue());
+        StdOut.println(que.dequeue());
+        StdOut.println("size: " + que.size());
+        StdOut.println("empty: " + que.isEmpty());
     }
 
 }
