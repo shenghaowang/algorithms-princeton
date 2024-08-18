@@ -43,3 +43,12 @@ java-algs4 PercolationStats 200 100
 * [Iterator implementation of bag](src/part1/module4_stacks_queues/Bag.java)
 * [Iterator implementation of deque](src/part1/module4_stacks_queues/Deque.java)
 * [Resizing array implementation of randomized queue](src/part1/module4_stacks_queues/RandomizedQueue.java)
+
+* Commands for testing [the client program](src/part1/module4_stacks_queues/Permutation.java)
+
+```
+javac-algs4 Permutation.java
+
+java Permutation 3 < distinct.txt
+java Permutation 8 < duplicates.txt
+```
