@@ -2,12 +2,13 @@
 ![Princeton logo](img/princeton.jpg)
 
 ## Course websites
+* [Computer Science: Programming with a Purpose](https://www.coursera.org/learn/cs-programming-java)
 * [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1/)
 
 ## Installation
 * [Java environment for Mac OS](https://lift.cs.princeton.edu/java/mac/)
 
-## Part I
+## Algorithms, Part I
 
 ### Module 1 Hello, World
 * [Assignment instructions](https://coursera.cs.princeton.edu/algs4/assignments/hello/specification.php)
@@ -53,3 +54,12 @@ javac-algs4 Permutation.java
 java Permutation 3 < distinct.txt
 java Permutation 8 < duplicates.txt
 ```
+
+## Computer Science: Programming with a Purpose
+
+### Module 1 Basic Programming Concepts
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
+* [Solutions](src/cs-programming-java/module1_basic_programming_concepts)
+
+### Module 2 Conditionals and Loops
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/loops/specification.php)
