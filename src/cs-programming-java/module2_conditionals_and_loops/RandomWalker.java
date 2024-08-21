@@ -12,6 +12,9 @@ public class RandomWalker {
 
         while (Math.abs(x) + Math.abs(y) < r) {
 
+            // update step counter
+            numSteps += 1;
+
             // print the coordinate
             System.out.println("(" + x + ", " + y + ")");
 
@@ -22,10 +25,9 @@ public class RandomWalker {
             else if (rand >= 0.25 && rand < 0.5) x--;
             else if (rand >= 0.5 && rand < 0.75) y++;
             else y--;
-
-            numSteps += 1;
         }
 
+        System.out.println("(" + x + ", " + y + ")");
         System.out.println("steps = " + numSteps);
     }
 }
