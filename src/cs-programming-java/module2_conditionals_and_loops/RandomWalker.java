@@ -22,8 +22,8 @@ public class RandomWalker {
             double rand = Math.random();
 
             if (rand < 0.25) x++;
-            else if (rand >= 0.25 && rand < 0.5) x--;
-            else if (rand >= 0.5 && rand < 0.75) y++;
+            else if (rand < 0.5) x--;
+            else if (rand < 0.75) y++;
             else y--;
         }
 
