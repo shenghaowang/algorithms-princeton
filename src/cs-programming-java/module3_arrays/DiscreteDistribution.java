@@ -16,7 +16,7 @@ public class DiscreteDistribution {
         for (int i = 0; i < m; i++) {
 
             // pick a random integer uniformly
-            int r = (int)(Math.random() * (S[N] - 1));
+            int r = (int)(Math.random() * S[N]);
 
             // search for the index
             int j = 0;

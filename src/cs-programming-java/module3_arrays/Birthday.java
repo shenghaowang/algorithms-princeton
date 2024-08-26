@@ -34,7 +34,7 @@ public class Birthday {
         }
 
         int i = 1;
-        while (fractions[i] <= 0.5) {
+        while (fractions[i] < 0.5) {
             System.out.println(i + "\t" + counts[i] + "\t" + fractions[i]);
             i++;
         }
