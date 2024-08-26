@@ -64,3 +64,7 @@ java Permutation 8 < duplicates.txt
 ### Module 2 Conditionals and Loops
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/loops/specification.php)
 * [Solutions](src/cs-programming-java/module2_conditionals_and_loops)
+
+### Module 3 Arrays
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php)
+* [Solutions](src/cs-programming-java/module3_arrays)
