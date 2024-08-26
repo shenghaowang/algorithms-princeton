@@ -15,8 +15,9 @@ public class Minesweeper {
 
         int count = 0;
         while (count < k) {
-            int x = (int)(Math.random() * (m - 1));
-            int y = (int)(Math.random() * (n - 1));
+            double rand = Math.random() * m * n;
+            int x = (int)(rand / n);
+            int y = (int)(rand % n);
 
             if (grid[x][y] == 0) {
                 grid[x][y]++;
