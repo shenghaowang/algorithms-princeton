@@ -2,10 +2,8 @@
  *  Compilation:  javac-introcs ShannonEntropy.java
  *  Execution:    java-introcs ShannonEntropy 2 < fair-coin.txt
  *  Execution:    java-introcs ShannonEntropy 6 < loaded-die.txt
+ *
  *  Dependencies: StdIn.java, StdOut.java
- *
- *  Implementation of a 2-d bouncing ball in the box from (-1, -1) to (1, 1).
- *
  *
  ******************************************************************************/
 
