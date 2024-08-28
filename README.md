@@ -68,3 +68,9 @@ java Permutation 8 < duplicates.txt
 ### Module 3 Arrays
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php)
 * [Solutions](src/cs-programming-java/module3_arrays)
+
+### Module 4 Input and Output
+* [Fractal drawing example](src/cs-programming-java/module4_input_and_output/Chaos.java)
+* [Animation example](src/cs-programming-java/module4_input_and_output/BouncingBall.java)
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php)
+* [Solutions](src/cs-programming-java/module4_input_and_output)
