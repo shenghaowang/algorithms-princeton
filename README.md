@@ -74,3 +74,7 @@ java Permutation 8 < duplicates.txt
 * [Animation example](src/cs-programming-java/module4_input_and_output/BouncingBall.java)
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php)
 * [Solutions](src/cs-programming-java/module4_input_and_output)
+
+### Module 5 Functions and Libraries
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
+* [Solutions](src/cs-programming-java/module5_functions_and_libraries)
