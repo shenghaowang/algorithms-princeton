@@ -13,14 +13,16 @@ public class Divisors {
 
     // Returns the greatest common divisor of a and b.
     public static int gcd(int a, int b) {
+        a = Math.abs(a);
+        b = Math.abs(b);
         if (a * b == 0)  return Math.max(a, b);
         else  return gcd(Math.min(a, b), Math.max(a, b) % Math.min(a, b));
     }
 
     // Returns the least common multiple of a and b.
     public static int lcm(int a, int b) {
-        // GCD of any two numbers is never negative or 0
-        return Math.abs(a) * Math.abs(b) / gcd(a, b);
+        if (a == 0 && b == 0) return 0;
+        return Math.abs(a) / gcd(a, b) * Math.abs(b);
     }
 
     // Returns true if a and b are relatively prime; false otherwise.
@@ -31,15 +33,11 @@ public class Divisors {
     // Returns the number of integers between 1 and n that are
     // relatively prime with n.
     public static int totient(int n) {
+        if (n <= 0) return 0;
         int count = 0;
-        int i = 1;
-
-        while (i < n) {
-            if (areRelativelyPrime(i, n) == true)
-                count++;
-            i++;
+        for (int i = 1; i <= n; i++) {
+            if (areRelativelyPrime(i, n)) count++;
         }
-
         return count;
     }
 
