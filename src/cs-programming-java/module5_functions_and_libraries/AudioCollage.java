@@ -1,3 +1,11 @@
+/******************************************************************************
+ *  Compilation:  javac-introcs AudioCollage.java
+ *  Execution:    java-introcs AudioCollage
+ *
+ *  Dependencies: StdAudio.java
+ *
+ ******************************************************************************/
+
 public class AudioCollage {
 
     // Returns a new array that rescales a[] by a multiplicative factor of alpha.
