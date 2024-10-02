@@ -59,22 +59,26 @@ java Permutation 8 < duplicates.txt
 
 ### Module 1 Basic Programming Concepts
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
-* [Solutions](src/cs-programming-java/module1_basic_programming_concepts)
+* [Solutions](src/cs-programming-java/module1_basic_programming_concepts/assignment)
 
 ### Module 2 Conditionals and Loops
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/loops/specification.php)
-* [Solutions](src/cs-programming-java/module2_conditionals_and_loops)
+* [Solutions](src/cs-programming-java/module2_conditionals_and_loops/assignment)
 
 ### Module 3 Arrays
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php)
-* [Solutions](src/cs-programming-java/module3_arrays)
+* [Solutions](src/cs-programming-java/module3_arrays/assignment)
 
 ### Module 4 Input and Output
-* [Fractal drawing example](src/cs-programming-java/module4_input_and_output/Chaos.java)
-* [Animation example](src/cs-programming-java/module4_input_and_output/BouncingBall.java)
+* [Fractal drawing example](src/cs-programming-java/module4_input_and_output/lecture/Chaos.java)
+* [Animation example](src/cs-programming-java/module4_input_and_output/lecture/BouncingBall.java)
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php)
-* [Solutions](src/cs-programming-java/module4_input_and_output)
+* [Solutions](src/cs-programming-java/module4_input_and_output/assignment)
 
 ### Module 5 Functions and Libraries
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
-* [Solutions](src/cs-programming-java/module5_functions_and_libraries)
+* [Solutions](src/cs-programming-java/module5_functions_and_libraries/assignment)
+
+### Module 6 Recursion
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php)
+* [Solutions](src/cs-programming-java/module6_recursion/assignment)
