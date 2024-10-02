@@ -1,6 +1,13 @@
 /******************************************************************************
  *  Towers of Hanoi: recursive solution
  *
+ *  Base Case: If there is only one disk, move it directly from rod A to rod C.
+ *
+ *  Recursive Case:
+ *  - Move n-1 disks from rod A to rod B, using rod C as an auxiliary rod.
+ *  - Move the nth disk from rod A to rod C.
+ *  - Move the n-1 disks from rod B to rod C, using rod A as an auxiliary rod.
+ *
  *  Compilation:  javac-introcs Hanoi.java
  *  Execution:    java-introcs Hanoi 3
  *
