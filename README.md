@@ -81,7 +81,9 @@ java Permutation 8 < duplicates.txt
 
 ### Module 6 Recursion
 * [Hanoi example](src/cs-programming-java/module6_recursion/lecture/Hanoi.java)
+
 ![hanoi](src/cs-programming-java/module6_recursion/lecture/hanoi.png)
+
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php)
 * [Solutions](src/cs-programming-java/module6_recursion/assignment)
 
