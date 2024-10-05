@@ -80,5 +80,11 @@ java Permutation 8 < duplicates.txt
 * [Solutions](src/cs-programming-java/module5_functions_and_libraries/assignment)
 
 ### Module 6 Recursion
+* [Hanoi example](src/cs-programming-java/module6_recursion/lecture/Hanoi.java)
+![hanoi](src/cs-programming-java/module6_recursion/lecture/hanoi.png)
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php)
 * [Solutions](src/cs-programming-java/module6_recursion/assignment)
+
+### Module 7 Performance
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/performance/specification.php)
+* [Solutions](src/cs-programming-java/module7_performance/assignment)
