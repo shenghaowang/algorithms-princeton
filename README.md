@@ -90,3 +90,7 @@ java Permutation 8 < duplicates.txt
 ### Module 7 Performance
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/performance/specification.php)
 * [Solutions](src/cs-programming-java/module7_performance/assignment)
+
+### Module 8 Abstract Data Types
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/oop1/specification.php)
+* [Solutions](src/cs-programming-java/module8_abstract_data_types/assignment)
