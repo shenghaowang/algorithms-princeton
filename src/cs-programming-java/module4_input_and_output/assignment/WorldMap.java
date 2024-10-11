@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac-introcs WorldMap.java
  *  Execution:    java-introcs WorldMap < canada.txt
- *  Execution:    java-introcs WorldMap 6 < singapore.txt
+ *  Execution:    java-introcs WorldMap < singapore.txt
  *
  *  Dependencies: StdIn.java, StdDraw.java
  *
