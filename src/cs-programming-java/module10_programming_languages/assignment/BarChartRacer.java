@@ -20,10 +20,6 @@ public class BarChartRacer {
         String xAxis = in.readLine();
         String source = in.readLine();
 
-        StdOut.println(title);
-        StdOut.println(xAxis);
-        StdOut.println(source);
-
         StdDraw.setCanvasSize(1000, 700);
         StdDraw.enableDoubleBuffering();
         BarChart chart = new BarChart(title, xAxis, source);
