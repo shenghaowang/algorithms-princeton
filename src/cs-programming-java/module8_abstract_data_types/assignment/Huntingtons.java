@@ -2,7 +2,7 @@
  *  Analyze a DNA string for Huntington’s disease and produce a diagnosis.
  *
  *  Compilation:  javac-introcs Huntingtons.java
- *  Execution:    java-introcs Huntingtons < repeats4.txt
+ *  Execution:    java-introcs Huntingtons repeats4.txt
  *
  *  Dependencies: In.java, StdOut.java
  ******************************************************************************/

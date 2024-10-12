@@ -98,3 +98,7 @@ java Permutation 8 < duplicates.txt
 ### Module 9 Creating Data Types
 * [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/oop2/specification.php)
 * [Solutions](src/cs-programming-java/module9_create_data_types/assignment)
+
+### Module 10 Programming Languages
+* [Assignment instructions](https://coursera.cs.princeton.edu/introcs/assignments/barchart/specification.php)
+* [Solutions](src/cs-programming-java/module10_programming_languages/assignment)
