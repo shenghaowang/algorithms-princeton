@@ -1,9 +1,9 @@
 /******************************************************************************
  *  Example client of BarChart
  *
- *  Compilation:  javac-introcs BarRacer.java
- *  Execution:    java-introcs BarRacer cities.txt 10
- *  Execution:    java-introcs BarRacer movies.txt 10
+ *  Compilation:  javac-introcs BarChartRacer.java
+ *  Execution:    java-introcs BarChartRacer cities.txt 10
+ *  Execution:    java-introcs BarChartRacer movies.txt 10
  *
  *  Dependencies: BarChart.java, In.java, StdDraw.java
  ******************************************************************************/
@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 
-public class BarRacer {
+public class BarChartRacer {
     public static void main(String[] args) {
         In in = new In(args[0]);
         int top = Integer.parseInt(args[1]);
