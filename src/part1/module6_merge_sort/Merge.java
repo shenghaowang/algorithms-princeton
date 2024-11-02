@@ -15,7 +15,6 @@ import edu.princeton.cs.algs4.StdRandom;
 
 
 public class Merge {
-    // private Merge() { }
 
     private static void merge(String[] a, String[] aux, int lo, int mid, int hi){
         assert isSorted(a, lo, mid);    // precondition: a[lo..mid]   sorted
@@ -64,9 +63,6 @@ public class Merge {
     /***************************************************************************
     *  Check if array is sorted - useful for debugging.
     ***************************************************************************/
-    // private static boolean isSorted(String[] a) {
-    //     return isSorted(a, 0, a.length - 1);
-    // }
 
     private static boolean isSorted(String[] a, int lo, int hi) {
         for (int i = lo + 1; i <= hi; i++)
