@@ -13,7 +13,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 
 public class Insertion {
-    public static void sort(Comparable[] a) {
+    public static void sort(Double[] a) {
         int N = a.length;
         for (int i = 0; i < N; i++) {
             for (int j = i; j > 0; j--)
@@ -23,25 +23,34 @@ public class Insertion {
         }
     }
 
-    private static boolean less(Comparable v, Comparable w) {
+    private static boolean less(Double v, Double w) {
         return v.compareTo(w) < 0;
     }
 
-    private static void exch(Comparable[] a, int i, int j) {
-        Comparable swap = a[i];
+    private static void exch(Double[] a, int i, int j) {
+        Double swap = a[i];
         a[i] = a[j];
         a[j] = swap;
+    }
+
+    private static void show(Double[] a) {
+        for (int i = 0; i < a.length; i++)
+            StdOut.println(a[i]);
     }
 
     public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
         Double[] a = new Double[N];
         for (int i = 0; i < N; i++)
-            a[i] = StdRandom.uniform();
+            a[i] = StdRandom.uniformDouble();
 
-        Selection.sort(a);
+        StdOut.println("Before sorting:");
+        Insertion.show(a);
+        StdOut.println();
 
-        for (int i = 0; i < N; i++)
-            StdOut.println(a[i]);
+        Insertion.sort(a);
+
+        StdOut.println("After sorting:");
+        Insertion.show(a);
     }
 }
