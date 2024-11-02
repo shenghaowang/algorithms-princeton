@@ -69,6 +69,6 @@ public class MergeBU {
         MergeBU.sort(a);
 
         StdOut.println("After sorting:");
-        show(a);
+        MergeBU.show(a);
     }
 }
