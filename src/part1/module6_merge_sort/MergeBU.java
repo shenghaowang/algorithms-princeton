@@ -1,9 +1,9 @@
 /******************************************************************************
- *  Implement the merge sort algorithm
+ *  Bottom-up implementation of mergesort.
  *
- *  Compilation:  javac-algs4 Merge.java
- *  Execution:    java-algs4 Merge < tiny.txt
- *  Execution:    java-algs4 Merge < words3.txt
+ *  Compilation:  javac-algs4 MergeBU.java
+ *  Execution:    java-algs4 MergeBU < tiny.txt
+ *  Execution:    java-algs4 MergeBU < words3.txt
  *
  *  Dependencies: StdRandom.java, StdOut.java
  *
@@ -13,10 +13,10 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+public class MergeBU {
+    private static String[] aux;
 
-public class Merge {
-
-    private static void merge(String[] a, String[] aux, int lo, int mid, int hi){
+    private static void merge(String[] a, int lo, int mid, int hi){
         assert isSorted(a, lo, mid);    // precondition: a[lo..mid]   sorted
         assert isSorted(a, mid+1, hi);  // precondition: a[mid+1..hi] sorted
 
@@ -37,36 +37,17 @@ public class Merge {
         assert isSorted(a, lo, hi);
     }
 
-    // mergesort a[lo..hi] using auxiliary array aux[lo..hi]
-    private static void sort(String[] a, String[] aux, int lo, int hi){
-        if (hi <= lo) return;
-        int mid = lo + (hi - lo) / 2;
-        sort(a, aux, lo, mid);
-        sort(a, aux, mid+1, hi);
-
-        // skip merge if already sorted, i.e.
-        // biggest item in first hald <= smallest item in second half
-        if (!less(a[mid+1], a[mid])) return;
-        merge(a, aux, lo, mid, hi);
-    }
-
     public static void sort(String[] a) {
-        String[] aux = new String[a.length];
-        sort(a, aux, 0, a.length - 1);
+        int N = a.length;
+        aux = new String[N];
+        for (int sz = 1; sz < N; sz = sz + sz)
+            for (int lo = 0; lo < N - sz; lo += sz + sz)
+                merge(a, lo, lo+sz-1, Math.min(lo+sz+sz-1, N-1));
     }
 
-    /***************************************************************************
-    *  Helper sorting function.
-    ***************************************************************************/
-
-    // is v < w ?
     private static boolean less(String v, String w) {
         return v.compareTo(w) < 0;
     }
-
-    /***************************************************************************
-    *  Check if array is sorted - useful for debugging.
-    ***************************************************************************/
 
     private static boolean isSorted(String[] a, int lo, int hi) {
         for (int i = lo + 1; i <= hi; i++)
@@ -74,7 +55,6 @@ public class Merge {
         return true;
     }
 
-    // print array to standard output
     private static void show(String[] a) {
         for (int i = 0; i < a.length; i++)
             StdOut.println(a[i]);
@@ -83,12 +63,12 @@ public class Merge {
     public static void main(String[] args) {
         String[] a = StdIn.readAllStrings();
         StdOut.println("Before sorting:");
-        Merge.show(a);
+        MergeBU.show(a);
         StdOut.println();
 
-        Merge.sort(a);
+        MergeBU.sort(a);
 
         StdOut.println("After sorting:");
-        Merge.show(a);
+        show(a);
     }
 }
