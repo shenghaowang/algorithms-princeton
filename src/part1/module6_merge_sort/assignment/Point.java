@@ -1,7 +1,7 @@
 /******************************************************************************
  *  Compilation:  javac-algs4 Point.java
- *  Execution:    javac-algs4 Point
- *  Dependencies: none
+ *  Execution:    java-algs4 Point
+ *  Dependencies: StdDraw.java
  *
  *  An immutable data type for points in the plane.
  *  For use on Coursera, Algorithms Part I programming assignment.
